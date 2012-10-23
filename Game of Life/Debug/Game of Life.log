@@ -1,0 +1,44 @@
+﻿Build started 23/10/2012 11:50:41 AM.
+     1>Project "C:\Users\Yujin Wu\Documents\Visual Studio 2012\Projects\Game of Life\Game of Life\Game of Life.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Game of Life.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt XAutomataEngine.cpp main.cpp sandBox.cpp
+         XAutomataEngine.cpp
+     1>c:\users\yujin wu\documents\visual studio 2012\projects\game of life\game of life\xautomataengine.cpp(26): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\yujin wu\documents\visual studio 2012\projects\game of life\game of life\xautomataengine.cpp(27): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         sandBox.cpp
+         main.cpp
+     1>c:\users\yujin wu\documents\visual studio 2012\projects\game of life\game of life\main.cpp(179): warning C4101: 'height' : unreferenced local variable
+     1>c:\users\yujin wu\documents\visual studio 2012\projects\game of life\game of life\main.cpp(179): warning C4101: 'width' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yujin Wu\Documents\Visual Studio 2012\Projects\Game of Life\Debug\Game of Life.exe" /INCREMENTAL /NOLOGO SDL.lib SDLmain.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yujin Wu\Documents\Visual Studio 2012\Projects\Game of Life\Debug\Game of Life.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yujin Wu\Documents\Visual Studio 2012\Projects\Game of Life\Debug\Game of Life.lib" /MACHINE:X86 Debug\AutomataEngine.obj
+         Debug\Button.obj
+         Debug\check.obj
+         Debug\control.obj
+         Debug\form.obj
+         Debug\HScroll.obj
+         Debug\Label.obj
+         Debug\main.obj
+         Debug\misc.obj
+         Debug\Options.obj
+         Debug\radioButton.obj
+         Debug\Rules.obj
+         Debug\sandBox.obj
+         Debug\scrollButton.obj
+         Debug\textBox.obj
+         Debug\textInput.obj
+         Debug\VScroll.obj
+         Debug\XAutomataEngine.obj
+         Game of Life.vcxproj -> C:\Users\Yujin Wu\Documents\Visual Studio 2012\Projects\Game of Life\Debug\Game of Life.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Game of Life.unsuccessfulbuild".
+         Touching "Debug\Game of Life.lastbuildstate".
+     1>Done Building Project "C:\Users\Yujin Wu\Documents\Visual Studio 2012\Projects\Game of Life\Game of Life\Game of Life.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.02

@@ -1,0 +1,91 @@
+﻿Build started 23/10/2012 8:34:42 PM.
+     1>Project "C:\Users\Yujin Wu\Documents\GitHub\GameOfLife\Game of Life\Game of Life.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Game of Life.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source\AutomataEngine.cpp Source\Button.cpp Source\check.cpp Source\control.cpp Source\form.cpp Source\HScroll.cpp Source\Label.cpp Source\main.cpp Source\misc.cpp Source\Options.cpp Source\radioButton.cpp Source\Rules.cpp Source\sandBox.cpp Source\scrollButton.cpp Source\textBox.cpp Source\textInput.cpp Source\VScroll.cpp Source\XAutomataEngine.cpp
+         AutomataEngine.cpp
+     1>Source\AutomataEngine.cpp(8): warning C4305: '=' : truncation from 'double' to 'float'
+     1>Source\AutomataEngine.cpp(29): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Source\AutomataEngine.cpp(32): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Source\AutomataEngine.cpp(33): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Source\AutomataEngine.cpp(34): warning C4244: 'initializing' : conversion from 'float' to 'Sint16', possible loss of data
+     1>Source\AutomataEngine.cpp(34): warning C4244: 'initializing' : conversion from 'float' to 'Uint16', possible loss of data
+     1>Source\AutomataEngine.cpp(43): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Source\AutomataEngine.cpp(44): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Source\AutomataEngine.cpp(45): warning C4244: 'initializing' : conversion from 'float' to 'Sint16', possible loss of data
+     1>Source\AutomataEngine.cpp(45): warning C4244: 'initializing' : conversion from 'float' to 'Uint16', possible loss of data
+     1>Source\AutomataEngine.cpp(155): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\AutomataEngine.cpp(156): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\AutomataEngine.cpp(157): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\AutomataEngine.cpp(222): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\AutomataEngine.cpp(226): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\AutomataEngine.cpp(229): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\AutomataEngine.cpp(233): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Source\AutomataEngine.cpp(236): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Source\AutomataEngine.cpp(239): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Source\AutomataEngine.cpp(250): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Source\AutomataEngine.cpp(251): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         Button.cpp
+         check.cpp
+         control.cpp
+     1>Source\control.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+         form.cpp
+     1>Source\form.cpp(4): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\form.cpp(25): warning C4018: '<=' : signed/unsigned mismatch
+     1>Source\form.cpp(94): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\form.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\form.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\form.cpp(269): warning C4244: 'argument' : conversion from 'double' to 'Uint32', possible loss of data
+         HScroll.cpp
+         Label.cpp
+         main.cpp
+     1>Source\main.cpp(98): warning C4101: 'height' : unreferenced local variable
+     1>Source\main.cpp(98): warning C4101: 'width' : unreferenced local variable
+         misc.cpp
+     1>Source\misc.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\misc.cpp(156): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         Options.cpp
+         radioButton.cpp
+         Rules.cpp
+         sandBox.cpp
+         scrollButton.cpp
+         textBox.cpp
+     1>Source\textBox.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>Source\textBox.cpp(52): warning C4018: '<=' : signed/unsigned mismatch
+     1>Source\textBox.cpp(61): warning C4018: '<=' : signed/unsigned mismatch
+         textInput.cpp
+         VScroll.cpp
+         XAutomataEngine.cpp
+     1>Source\XAutomataEngine.cpp(26): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Source\XAutomataEngine.cpp(27): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yujin Wu\Documents\GitHub\GameOfLife\Release\Game of Life.exe" /NOLOGO SDL.lib SDLmain.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yujin Wu\Documents\GitHub\GameOfLife\Release\Game of Life.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yujin Wu\Documents\GitHub\GameOfLife\Release\Game of Life.lib" /MACHINE:X86 /SAFESEH Release\AutomataEngine.obj
+         Release\Button.obj
+         Release\check.obj
+         Release\control.obj
+         Release\form.obj
+         Release\HScroll.obj
+         Release\Label.obj
+         Release\main.obj
+         Release\misc.obj
+         Release\Options.obj
+         Release\radioButton.obj
+         Release\Rules.obj
+         Release\sandBox.obj
+         Release\scrollButton.obj
+         Release\textBox.obj
+         Release\textInput.obj
+         Release\VScroll.obj
+         Release\XAutomataEngine.obj
+         Generating code
+         Finished generating code
+         Game of Life.vcxproj -> C:\Users\Yujin Wu\Documents\GitHub\GameOfLife\Release\Game of Life.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\Game of Life.unsuccessfulbuild".
+         Touching "Release\Game of Life.lastbuildstate".
+     1>Done Building Project "C:\Users\Yujin Wu\Documents\GitHub\GameOfLife\Game of Life\Game of Life.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.72
